@@ -42,7 +42,7 @@ const TOC =
   '                       <a href="#numpy">NumPy</a>, <a href="#image">Image</a>, <a href="#audio">Audio</a>, <a href="#pygame">Games</a>, <a href="#pandas">Data</a>]\n' +
 
 
-const LRU_CACHE =
+
   '<span class="hljs-keyword">from</span> functools <span class="hljs-keyword">import</span> lru_cache\n' +
   '\n' +
   '<span class="hljs-meta">@lru_cache(maxsize=None)</span>\n' +
