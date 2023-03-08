@@ -23,9 +23,11 @@
 // should contain the following line: `./parse.js`.
 
 
+
 const fs = require('fs');
 const jsdom = require('jsdom');
 const jsdom2 = require('jsdom');
+
 const showdown  = require('showdown');
 const hljs = require('highlightjs');
 
@@ -42,6 +44,7 @@ const TOC =
   '    <strong><span class="hljs-string">\'6. Advanced\'</span></strong>:    [<a href="#threading">Threading</a>, <a href="#operator">Operator</a>, <a href="#introspection">Introspection</a>, <a href="#metaprogramming">Metaprograming</a>, <a href="#eval">Eval</a>, <a href="#coroutines">Coroutine</a>],\n' +
   '    <strong><span class="hljs-string">\'7. Libraries\'</span></strong>:   [<a href="#progressbar">Progress_Bar</a>, <a href="#plot">Plot</a>, <a href="#table">Table</a>, <a href="#curses">Curses</a>, <a href="#logging">Logging</a>, <a href="#scraping">Scraping</a>, <a href="#web">Web</a>, <a href="#profiling">Profile</a>,\n' +
   '                       <a href="#numpy">NumPy</a>, <a href="#image">Image</a>, <a href="#audio">Audio</a>, <a href="#pygame">Games</a>, <a href="#pandas">Data</a>]\n' +
+
   '}\n' +
   '</code></pre>\n'; // HEHEHEH
 
