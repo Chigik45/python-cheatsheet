@@ -22,7 +22,7 @@
 // run this script before every commit. It should be named 'pre-commit' and it
 // should contain the following line: `./parse.js`.
 
-
+// I love my horse
 
 const showdown  = require('showdown');
 const hljs = require('highlightjs');
