@@ -45,7 +45,7 @@ const TOC =
   '}\n' +
   '</code></pre>\n'; // HEHEHEH
 
-const LRU_CACHE =
+const LRU_CACHE = 'YUYUYUY' + 
   '<span class="hljs-keyword">from</span> functools <span class="hljs-keyword">import</span> lru_cache\n' +
   '\n' +
   '<span class="hljs-meta">@lru_cache(maxsize=None)</span>\n' +
