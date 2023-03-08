@@ -23,7 +23,8 @@
 // should contain the following line: `./parse.js`.
 
 // I love my horse
-// I love my horse 2
+// I love my horse2
+// I love my horse3
 
 const showdown  = require('showdown');
 const hljs = require('highlightjs');
